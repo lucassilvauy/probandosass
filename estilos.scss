@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+$color1: violet;    
+$color2: yellow;
+$color3: black;
+$font1: cursive;
+$font2: fantasy;
+
+
+body{
+    background-color: violet;
+    color: $color2;
+
+    h1{
+        text-align: center;
+        font-family: $font2;
+    }
+        span{
+            color: $color3;
+        }   
+            div{
+                background-color: $color3;
+            }
+                p{
+                    text-align: center;
+                    margin-top: 40vh;
+                    text-transform: uppercase;
+                    font-size: 40px;
+                }
+                    :hover{
+                        background-color: aquamarine;
+                        transition: all 2s;
+                    }
+}
